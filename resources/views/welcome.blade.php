@@ -23,11 +23,11 @@
        <div class="bg-indigo-500 text-5xl text-white w-[50%] rounded-lg m-12 p-4 text-center shadow-lg " >Hello form Alpine
        <div x-data="{ count: 0 }" class="bg-indigo-800 rounded-lg hover:bg-indigo-300 p-2">
        <button x-on:click="count++">Click me!</button>
-          <span x-text="count" class="text-black"></span>
+          <span x-text="count" class="text-black "></span>
        </div>
        </div>
 
-          @livewireScripts
        </div>
+       @livewireScripts
     </body>
 </html>
